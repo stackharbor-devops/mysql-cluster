@@ -16,7 +16,7 @@ logo: /images/mysql-mariadb-percona-logo.png?_r=1
 
 onBeforeInit: /scripts/settings.js?_r=${fn.random}
 
-baseUrl: https://cdn.jsdelivr.net/gh/stackharbor-devops/mysql-cluster@sh-1
+baseUrl: https://cdn.jsdelivr.net/gh/stackharbor-devops/mysql-cluster@sh-2
 
 settings:
   fields:

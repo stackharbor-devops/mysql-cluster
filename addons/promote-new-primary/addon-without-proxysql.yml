@@ -8,10 +8,10 @@ description:
 
 logo: images/db-failover-red.png
 
-baseUrl: https://cdn.jsdelivr.net/gh/stackharbor-devops/mysql-cluster@sh-1/addons/promote-new-primary
+baseUrl: https://cdn.jsdelivr.net/gh/stackharbor-devops/mysql-cluster@sh-2/addons/promote-new-primary
 
 mixins:
-  - https://cdn.jsdelivr.net/gh/stackharbor-devops/mysql-cluster@sh-1/scripts/common.yml
+  - https://cdn.jsdelivr.net/gh/stackharbor-devops/mysql-cluster@sh-2/scripts/common.yml
   - /scripts/common.yml
 
 targetNodes:
