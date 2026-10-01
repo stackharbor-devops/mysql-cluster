@@ -1,7 +1,7 @@
 type: update
 id: db-recovery-events
 name: Database Cluster Recovery Events
-baseUrl: https://cdn.jsdelivr.net/gh/jelastic-jps/mysql-cluster@master/addons/recovery
+baseUrl: https://cdn.jsdelivr.net/gh/stackharbor-devops/mysql-cluster@sh-1/addons/recovery
 
 onAfterScaleOut[sqldb]: diagnostic
 onAfterScaleIn[sqldb]: diagnostic

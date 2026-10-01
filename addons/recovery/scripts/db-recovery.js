@@ -518,9 +518,9 @@ function DBRecovery() {
     me.execRecovery = function(values) {
         values = values || {};
         log("values->" + values);
-        log("curl --silent https://cdn.jsdelivr.net/gh/jelastic-jps/mysql-cluster@master/addons/recovery/scripts/db-recovery.sh > /tmp/db-recovery.sh && bash /tmp/db-recovery.sh " + me.formatRecoveryAction(values));
+        log("curl --silent https://cdn.jsdelivr.net/gh/stackharbor-devops/mysql-cluster@sh-1/addons/recovery/scripts/db-recovery.sh > /tmp/db-recovery.sh && bash /tmp/db-recovery.sh " + me.formatRecoveryAction(values));
         return nodeManager.cmd({
-            command: "curl --silent https://cdn.jsdelivr.net/gh/jelastic-jps/mysql-cluster@master/addons/recovery/scripts/db-recovery.sh > /tmp/db-recovery.sh && bash /tmp/db-recovery.sh " + me.formatRecoveryAction(values),
+            command: "curl --silent https://cdn.jsdelivr.net/gh/stackharbor-devops/mysql-cluster@sh-1/addons/recovery/scripts/db-recovery.sh > /tmp/db-recovery.sh && bash /tmp/db-recovery.sh " + me.formatRecoveryAction(values),
             nodeid: values.nodeid || ""
         });
     };
