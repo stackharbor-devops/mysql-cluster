@@ -3,7 +3,7 @@ name: DB Cluster Tuning (Alpha)
 id: proxysql-db-tune-addon
 logo: addons/performance-tuning/images/mysql-proxysql-tuning.png
 description: Change ProxySQL and Database settings according to your particular use case
-baseUrl: https://cdn.jsdelivr.net/gh/stackharbor-devops/mysql-cluster@sh-2/
+baseUrl: https://cdn.jsdelivr.net/gh/stackharbor-devops/mysql-cluster@sh-3/
 targetNodes: proxysql
 
 globals:
