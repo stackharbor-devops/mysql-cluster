@@ -14,7 +14,7 @@
             "postgres", "postgres8", "postgres9"
         ]
     },
-    "baseUrl": "https://raw.githubusercontent.com/stackharbor-devops/mysql-cluster/sh-4/addons/backup",
+    "baseUrl": "https://raw.githubusercontent.com/stackharbor-devops/mysql-cluster/sh-5/addons/backup",
     "logo": "/images/backup-to-nfs.png",
     "globals": {
         "backup_path": "/data/backups"
