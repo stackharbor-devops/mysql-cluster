@@ -16,7 +16,7 @@ Customize other settings up to your needs and click **Create**.
 2\. [Import](https://www.virtuozzo.com/application-platform-docs/environment-import/) the add-on for auto-failover from this repository:
 
 ```
-https://cdn.jsdelivr.net/gh/stackharbor-devops/mysql-cluster@sh-3/addons/promote-new-primary/addon-with-proxysql.yml
+https://cdn.jsdelivr.net/gh/stackharbor-devops/mysql-cluster@sh-4/addons/promote-new-primary/addon-with-proxysql.yml
 ```
 
 ![install the promote primary add-on](images/02-install-promote-primary-addon.png)
