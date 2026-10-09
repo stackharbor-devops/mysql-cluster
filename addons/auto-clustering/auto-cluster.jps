@@ -9,9 +9,9 @@ description:
     healthcheck and autodiscovery of newly added DB nodes
   short: Scalable MySQL cluster with ProxySQL for even load distribution
 
-baseUrl: https://raw.githubusercontent.com/jelastic-jps/mysql-cluster/v3.0.0
+baseUrl: https://raw.githubusercontent.com/stackharbor-devops/mysql-cluster/sh-4-v3.0.0
 
-logo: https://raw.githubusercontent.com/jelastic-jps/mysql-cluster/master/images/mysql-logo.png
+logo: https://raw.githubusercontent.com/stackharbor-devops/mysql-cluster/sh-4/images/mysql-logo.png
 
 globals:
   logic_jps: ${baseUrl}/addons/auto-clustering/scripts/auto-cluster-logic.jps?_r=${fn.random}
