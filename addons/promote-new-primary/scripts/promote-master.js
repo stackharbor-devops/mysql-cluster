@@ -368,7 +368,7 @@ function promoteNewPrimary() {
 
     this.diagnosticNodes = function() {
         let clusterUp = false;
-        let command = "curl -fsSL 'https://github.com/stackharbor-devops/mysql-cluster/raw/sh-4/addons/recovery/scripts/db-recovery.sh' -o /tmp/db_recovery.sh\n" +
+        let command = "curl -fsSL 'https://github.com/stackharbor-devops/mysql-cluster/raw/sh-5/addons/recovery/scripts/db-recovery.sh' -o /tmp/db_recovery.sh\n" +
             "bash /tmp/db_recovery.sh --diagnostic"
         let resp = this.cmdByGroup(command, SQLDB, 60);
         if (resp.result != 0) return resp;
@@ -589,7 +589,7 @@ function promoteNewPrimary() {
     this.promoteNewSQLPrimary = function() {
         let newPrimary = this.getNewPrimaryNode();
 
-        let command = "curl -fsSL 'https://github.com/stackharbor-devops/mysql-cluster/raw/sh-4/addons/recovery/scripts/db-recovery.sh' -o /tmp/db_recovery.sh\n" +
+        let command = "curl -fsSL 'https://github.com/stackharbor-devops/mysql-cluster/raw/sh-5/addons/recovery/scripts/db-recovery.sh' -o /tmp/db_recovery.sh\n" +
             "bash /tmp/db_recovery.sh --scenario promote_new_primary";
         let resp = this.cmdById(newPrimary.id, command);
         if (resp.result != 0) return resp;

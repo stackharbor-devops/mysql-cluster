@@ -8,10 +8,10 @@ description:
 
 logo: /images/database-corruption-check.png
 
-baseUrl: https://cdn.jsdelivr.net/gh/stackharbor-devops/mysql-cluster@sh-4/addons/check-corrupts
+baseUrl: https://cdn.jsdelivr.net/gh/stackharbor-devops/mysql-cluster@sh-5/addons/check-corrupts
 
 mixins:
-  - https://cdn.jsdelivr.net/gh/stackharbor-devops/mysql-cluster@sh-4/scripts/common.yml
+  - https://cdn.jsdelivr.net/gh/stackharbor-devops/mysql-cluster@sh-5/scripts/common.yml
 
 targetNodes:
   nodeType:
