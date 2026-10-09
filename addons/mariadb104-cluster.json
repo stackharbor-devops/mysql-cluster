@@ -1,5 +1,5 @@
 {
-    "jps": "https://cdn.jsdelivr.net/gh/stackharbor-devops/mysql-cluster@sh-4-3.0.0/addons/auto-clustering/auto-cluster.jps",
+    "jps": "https://cdn.jsdelivr.net/gh/stackharbor-devops/mysql-cluster@sh-5-3.0.0/addons/auto-clustering/auto-cluster.jps",
     "defaultState": false,
     "skipOnEnvInstall": true,
     "nodeGroupData": {

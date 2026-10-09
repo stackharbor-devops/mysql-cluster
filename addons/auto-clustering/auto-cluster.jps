@@ -1,7 +1,7 @@
 jpsType: update
 id: mysql-auto-cluster
 name: Scalable Database cluster
-logo: https://cdn.jsdelivr.net/gh/stackharbor-devops/mysql-cluster@sh-4/images/mysql-logo.png
+logo: https://cdn.jsdelivr.net/gh/stackharbor-devops/mysql-cluster@sh-5/images/mysql-logo.png
 description:
   text: Ready-to-work scalable MySQL Cluster with primary-secondary asynchronous replication
     and ProxySQL load balancer in front of it. Is supplied with embedded Orchestrator
@@ -9,7 +9,7 @@ description:
     healthcheck and autodiscovery of newly added DB nodes
   short: Scalable MySQL cluster with ProxySQL for even load distribution
 
-baseUrl: https://cdn.jsdelivr.net/gh/stackharbor-devops/mysql-cluster@sh-4-3.0.0
+baseUrl: https://cdn.jsdelivr.net/gh/stackharbor-devops/mysql-cluster@sh-5-3.0.0
 
 globals:
   cdnUrl: https://cdn.jsdelivr.net/gh

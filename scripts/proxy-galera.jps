@@ -3,7 +3,7 @@ id: mysql-proxy-galera-cluster
 name: Galera/XtraDB Cluster with ProxySQL
 description: Galera/XtraDB Cluster
 
-baseUrl: https://cdn.jsdelivr.net/gh/stackharbor-devops/mysql-cluster@sh-4-3.0.0
+baseUrl: https://cdn.jsdelivr.net/gh/stackharbor-devops/mysql-cluster@sh-5-3.0.0
 
 globals:
   cdnUrl: https://cdn.jsdelivr.net/gh
